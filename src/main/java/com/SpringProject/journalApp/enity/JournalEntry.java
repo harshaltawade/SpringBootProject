@@ -22,6 +22,7 @@ import java.util.Date;
 // @AllArgsConstructor
 // @Builder
 @Data
+@NoArgsConstructor
 public class JournalEntry {
     @Id
     private ObjectId id;
